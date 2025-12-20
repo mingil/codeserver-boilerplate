@@ -1,0 +1,15 @@
+services:
+  codeserver:
+    image: ghcr.io/linuxserver/code-server
+    container_name: code-server
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Asia/Seoul
+      - PASSWORD=password # 변경 필요
+      - SUDO_PASSWORD=password # 변경 필요
+    volumes:
+      - ./codeserver-config:/config
+    ports:
+      - 8443:8443
+    restart: unless-stopped
