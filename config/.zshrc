@@ -29,3 +29,4 @@ cd /config/workspace
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 export SHELL=/bin/zsh
+export DOCKER_API_VERSION=1.43
