@@ -1,0 +1,45 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "✅ 시스템 상태 점검 (Check)",
+            "type": "shell",
+            "command": "./maintenance/check.sh",
+            "group": "test",
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            },
+            "detail": "시스템, AI 엔진, 보안 상태를 한눈에 진단합니다."
+        },
+        {
+            "label": "🚑 시스템 자가 복구 (Repair)",
+            "type": "shell",
+            "command": "./maintenance/repair.sh",
+            "group": "build",
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            },
+            "detail": "권한 오류, Git 설정 문제 등을 자동으로 치료합니다."
+        },
+        {
+            "label": "🐳 도커 상태 확인 (Docker PS)",
+            "type": "shell",
+            "command": "docker ps --format 'table {{.Names}}\\t{{.Status}}\\t{{.Image}}'",
+            "detail": "현재 실행 중인 도커 컨테이너 목록을 보여줍니다."
+        },
+        {
+            "label": "💾 Git 백업 (Auto Push)",
+            "type": "shell",
+            "command": "git add . && git commit -m 'chore: Auto-save via Task' && git push",
+            "detail": "현재 변경 사항을 GitHub에 즉시 저장합니다."
+        },
+        {
+            "label": "🔄 서버 재시작 (Restart)",
+            "type": "shell",
+            "command": "echo '⚠️ 컨테이너 재시작은 시놀로지 Docker 메뉴에서 해주세요.'",
+            "detail": "컨테이너 재시작 안내 메시지"
+        }
+    ]
+}
