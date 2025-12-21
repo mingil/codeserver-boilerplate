@@ -10,7 +10,7 @@ export DEBIAN_FRONTEND=noninteractive
 apt-get update -qq
 apt-get install -y \
     git-lfs tree htop jq fontconfig build-essential \
-    ffmpeg graphviz cmake libgl1-mesa-glx \
+    ffmpeg graphviz cmake libgl1 \
     > /dev/null
 
 # [2] Pip 설치 (안전장치)
