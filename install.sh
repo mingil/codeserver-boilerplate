@@ -52,3 +52,19 @@ if [ -f /config/.immortal_env/.zshrc ]; then
 fi
 
 echo "✅ [Boot] DTx Empire Environment Ready."
+
+# [6] VS Code 확장 프로그램 자동 설치 (Extensions)
+echo "🧩 VS Code Extensions 설치 중..."
+EXT_LIST=(
+    "Codeium.codeium"           # AI 비서
+    "ms-python.python"          # Python 필수
+    "ms-toolsai.jupyter"        # Jupyter Notebook
+    "kelvin.vscode-sshfs"       # SSH 파일 시스템
+    "pkief.material-icon-theme" # 아이콘 테마
+    "tamasfe.even-better-toml"  # 설정 파일 가독성
+)
+
+for ext in "${EXT_LIST[@]}"; do
+    code-server --install-extension "$ext" --force > /dev/null 2>&1
+done
+echo "✅ Extensions Installed."
