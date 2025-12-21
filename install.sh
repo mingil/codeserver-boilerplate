@@ -1,11 +1,11 @@
 #!/bin/bash
-# 🏥 DTx Empire: Immortal Environment Setup Script
-# 이 파일은 컨테이너가 생성될 때마다 자동으로 실행되어, 모든 환경을 원상복구합니다.
+# 🏥 DTx Empire: Immortal Environment Setup Script (v3.0 Final)
+# 이 스크립트는 컨테이너 부팅 시 또는 repair.sh 실행 시 호출되어 시스템을 복구합니다.
 
 echo "🚀 [Install] DTx Empire 환경 구축을 시작합니다..."
 
-# [1] 시스템 기본 패키지 업데이트 및 필수 도구 설치 (System Utils)
-echo "📦 System Packages 업데이트 중..."
+# [Step 1] 시스템 필수 도구 (System Utils)
+echo "📦 System Packages 업데이트 및 설치..."
 sudo apt-get update
 sudo apt-get install -y \
     build-essential \
@@ -17,10 +17,11 @@ sudo apt-get install -y \
     ffmpeg \
     libgl1 \
     htop \
-    unzip
+    unzip \
+    iputils-ping
 
-# [2] Python AI 라이브러리 설치 (AI Core)
-# 주의: 최신 환경에서는 --break-system-packages 옵션이 필요할 수 있음
+# [Step 2] Python AI 라이브러리 (Global AI Core)
+# 편의성을 위해 기본 시스템 파이썬에 Data Science 스택을 탑재합니다.
 echo "🧠 Python AI Libraries 설치 중..."
 pip3 install --upgrade pip --break-system-packages
 pip3 install --break-system-packages \
@@ -30,14 +31,11 @@ pip3 install --break-system-packages \
     matplotlib \
     opencv-python-headless \
     jupyter \
-    ipympl
+    ipympl \
+    torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
 
-# PyTorch (CPU 버전 - 시놀로지 부하 방지용)
-echo "🔥 PyTorch (CPU) 설치 중..."
-pip3 install --break-system-packages torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
-
-# [3] VS Code 확장 프로그램 설치 (Extensions)
-echo "🧩 VS Code Extensions 설치 중..."
+# [Step 3] VS Code 확장 프로그램 (Extensions)
+echo "🧩 VS Code Extensions 복구 중..."
 EXT_LIST=(
     "Codeium.codeium"           # AI 비서
     "ms-python.python"          # Python 지원
@@ -51,8 +49,8 @@ for ext in "${EXT_LIST[@]}"; do
     code-server --install-extension "$ext" --force > /dev/null 2>&1
 done
 
-# [4] 정리 (Clean up)
+# [Step 4] 정리 (Clean up)
 sudo apt-get clean
 rm -rf /var/lib/apt/lists/*
 
-echo "✅ [Complete] 모든 환경 설정이 완료되었습니다."
+echo "✅ [Complete] 시스템이 설계도대로 완벽하게 복구되었습니다."
