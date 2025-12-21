@@ -5,7 +5,11 @@ BLUE='\033[0;34m'
 YELLOW='\033[1;33m'
 NC='\033[0m'
 
-echo -e "${BLUE}🛡️ [DTx Maintenance] SYSTEM STATUS CHECK (v2.0 AI)${NC}"
+# 스크립트가 위치한 실제 경로 파악 (어디서 실행하든 유지보수 폴더 위치를 찾음)
+SCRIPT_DIR=$(dirname "$(readlink -f "$0")")
+REPAIR_KIT="$SCRIPT_DIR/repair.sh"
+
+echo -e "${BLUE}🛡️ [DTx Maintenance] SYSTEM STATUS CHECK (v2.1 Final)${NC}"
 echo "---------------------------------------------------"
 
 # [1] 시스템 인프라
@@ -33,17 +37,17 @@ else
     echo -e "${RED}Fail${NC} (AI Libraries Missing)"
 fi
 
-# [4] 복구 키트 존재 여부
+# [4] 복구 키트 존재 여부 (절대 경로로 확인)
 echo -n "🚑 Repair Kit   : "
-if [ -x "./maintenance/repair.sh" ]; then
+if [ -x "$REPAIR_KIT" ]; then
     echo -e "${GREEN}Ready${NC}"
 else
-    echo -e "${YELLOW}Missing${NC}"
+    echo -e "${YELLOW}Missing${NC} (Path: $REPAIR_KIT)"
 fi
 
 echo "---------------------------------------------------"
 if [ $? -eq 0 ]; then
     echo -e "✅ System is healthy. Ready for Research."
 else
-    echo -e "⚠️ Issues found. Run './maintenance/repair.sh'"
+    echo -e "⚠️ Issues found. Run '$REPAIR_KIT'"
 fi
