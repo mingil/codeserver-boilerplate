@@ -1,46 +1,39 @@
-# 🏥 DTx Empire: Immortal AI Code Server
+# 🏥 DTx Empire: The Final Fortress
 
-**Global Digital Therapeutics (DTx) 개발을 위한 시놀로지 기반 AI 연구소입니다.**
-이 환경은 **Python 3.12 + PyTorch (CPU Optimized) + Data Science Stack**이 통합되어 있으며, 컨테이너 초기화 시에도 자동으로 복구되는 **불멸(Immortal)의 속성**을 가집니다.
-
----
-
-## 🚀 탑재된 엔진 (Specs)
-
-* **🧠 AI Core**: PyTorch (CPU), Scikit-learn
-* **📊 Data Science**: Pandas, NumPy
-* **📈 Visualization**: Matplotlib, Seaborn
-* **🖥️ System**: Zsh (Powerlevel10k), Docker-in-Docker, Git LFS
-* **🔒 Security**: Standard Sudo Protection (비밀번호 필수)
+**Global Digital Therapeutics (DTx) 개발을 위한 완전 자동화된 AI 연구소입니다.**
+이 시스템은 '설치 없는(Zero-Setup)' 환경을 지향하며, 자가 복구 및 자동 업데이트 기능을 갖춘 영구적인(Immortal) 개발 요새입니다.
 
 ---
 
-## 🚑 유지보수 센터 (Maintenance)
+## 💎 Ultimate Specs (사전 설치됨)
 
-시스템 문제 발생 시 아래 도구를 사용하세요. (`maintenance/` 폴더 내 위치)
-
-1.  **상태 정밀 진단**:
-    \`\`\`bash
-    ./maintenance/check.sh
-    \`\`\`
-    * *OS, 보안, Docker 연결, AI 라이브러리 상태를 한 번에 점검합니다.*
-
-2.  **자가 복구 (Emergency Repair)**:
-    \`\`\`bash
-    ./maintenance/repair.sh
-    \`\`\`
-    * *Sudo 권한 상실, Docker 소켓 에러, Git 설정 유실 시 자동으로 복구합니다.*
+* **🧠 AI & CV**: PyTorch(CPU), Scikit-learn, OpenCV, FFmpeg
+* **📊 Data**: Pandas, NumPy, JupyterLab
+* **🛠️ Utils**: Git LFS, Docker-in-Docker, Graphviz, CMake
+* **🛡️ Security**: Sudo Password Protection, Auto-Repair Kit
+* **⚙️ Editor**: VS Code Pro Settings (Auto-Format, Meslo Font)
 
 ---
 
-## 📂 설치 및 사용 (Installation)
+## 🛰️ 자동화 시스템 (Automation)
+
+1.  **자동 업데이트 (Watchtower)**:
+    * 매 시간 최신 Docker 이미지를 확인하고 백그라운드에서 자동 업데이트합니다.
+    * 사용자는 업데이트 신경 쓸 필요 없이 항상 최신 환경을 사용합니다.
+
+2.  **부팅 자동화 (Immortal Boot)**:
+    * 컨테이너가 재생성되어도 `install.sh`가 자동으로 실행되어 모든 라이브러리를 복구합니다.
+
+---
+
+## 🚑 유지보수 (Emergency Only)
+
+시스템이 이상할 때만 아래 명령어를 실행하세요. 평소에는 건드릴 필요가 없습니다.
 
 \`\`\`bash
-# 초기 설정 (부팅 스크립트 등록)
-bash install.sh
+./maintenance/repair.sh
 \`\`\`
 
 ---
-**Architect**: mingil (DTx Empire)
-**Status**: v2.0 AI Pro Edition
+**Status**: Final Release (User UI & System Logic Frozen)
 **Last Updated**: $(date +%Y-%m-%d)
