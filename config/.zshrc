@@ -24,7 +24,7 @@ export PATH="/config/python_packages/bin:$PATH"
 
 # p10k 설정 로드
 [[ ! -f /config/.immortal_env/.p10k.zsh ]] || source /config/.immortal_env/.p10k.zsh
-cd /config/workspace
+#cd /config/workspace
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
