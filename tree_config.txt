@@ -1,0 +1,1537 @@
+/config
+├── .cache
+│   ├── gitstatus
+│   │   └── gitstatusd-linux-x86_64
+│   ├── jedi
+│   │   ├── CPython-312-33
+│   │   └── PARSO-CACHE-LOCK
+│   ├── matplotlib
+│   │   └── fontlist-v390.json
+│   ├── Microsoft
+│   │   └── DeveloperTools
+│   ├── ms-playwright-go
+│   │   └── 1.50.1
+│   ├── p10k-abc
+│   │   ├── prompt-17
+│   │   └── prompt-40
+│   ├── pip
+│   │   └── http-v2
+│   ├── p10k-dump-abc.zsh
+│   ├── p10k-dump-abc.zsh.zwc
+│   ├── p10k-instant-prompt-abc.zsh
+│   └── p10k-instant-prompt-abc.zsh.zwc
+├── .codeium
+│   ├── brain
+│   ├── cascade
+│   ├── changelog
+│   │   └── changelog_1.48.md
+│   ├── chat_state
+│   │   └── codeium_chat_state_file_config_workspace.pb
+│   ├── code_tracker
+│   │   ├── active
+│   │   └── history
+│   ├── context_state
+│   ├── database
+│   │   └── 9c0694567290725d9dcba14ade58e297
+│   ├── implicit
+│   │   └── 382f5b46-f3b5-4484-ac41-5145e9874c00.pb
+│   ├── memories
+│   │   └── global_rules.md
+│   ├── recipes
+│   ├── university
+│   │   ├── base
+│   │   ├── current_version.txt
+│   │   ├── new_version.txt
+│   │   ├── sandbox.ts
+│   │   └── vet.ts
+│   ├── windsurf
+│   │   └── workflows
+│   ├── ws-browser
+│   │   ├── chromium-1155
+│   │   ├── chromium_headless_shell-1155
+│   │   ├── ffmpeg-1011
+│   │   └── .links
+│   ├── ws-browser-profile
+│   ├── config.json
+│   ├── installation_id
+│   ├── onboarding.json
+│   ├── onboarding.json.lock
+│   └── user_settings.pb
+├── .config
+│   ├── code-server
+│   │   └── config.yaml
+│   └── matplotlib
+├── custom-cont-init.d
+│   └── 99-install-packages.sh
+├── data
+│   ├── CachedExtensionVSIXs
+│   ├── CachedProfilesData
+│   │   └── __default__profile__
+│   ├── logs
+│   │   ├── 20251222T000521
+│   │   ├── 20251222T005803
+│   │   ├── 20251222T011645
+│   │   ├── 20251222T012319
+│   │   ├── 20251222T015409
+│   │   ├── 20251222T015700
+│   │   ├── 20251222T025410
+│   │   ├── 20251222T033316
+│   │   ├── 20251222T060316
+│   │   └── 20251231T064137
+│   ├── Machine
+│   ├── User
+│   │   ├── Backups
+│   │   ├── caches
+│   │   ├── globalStorage
+│   │   ├── History
+│   │   ├── snippets
+│   │   ├── workspaceStorage
+│   │   ├── customBuiltinExtensionsCache.json
+│   │   ├── force_fix_settings.py
+│   │   ├── keybindings.json
+│   │   ├── settings.json
+│   │   ├── systemExtensionsCache.json
+│   │   ├── update_settings.py
+│   │   └── .zshrc -> /config/.immortal_env/.zshrc
+│   ├── coder.json
+│   ├── code-server-ipc.sock
+│   └── serve-web-key-half
+├── extensions
+│   ├── bierner.markdown-mermaid-1.29.0-universal
+│   │   ├── dist
+│   │   ├── dist-notebook
+│   │   ├── dist-preview
+│   │   ├── docs
+│   │   ├── changelog.md
+│   │   ├── eslint.config.mjs
+│   │   ├── LICENSE.txt
+│   │   ├── package.json
+│   │   ├── readme.md
+│   │   └── .vsixmanifest
+│   ├── codeium.codeium-1.48.2-universal
+│   │   ├── assets
+│   │   ├── dist
+│   │   ├── CHANGELOG.md
+│   │   ├── LICENSE.txt
+│   │   ├── package.json
+│   │   ├── README.md
+│   │   └── .vsixmanifest
+│   ├── enkia.tokyo-night-1.1.2-universal
+│   │   ├── themes
+│   │   ├── changelog.md
+│   │   ├── icon.svg
+│   │   ├── LICENSE.txt
+│   │   ├── package.json
+│   │   ├── readme.md
+│   │   ├── tokyo-night.itermcolors
+│   │   └── .vsixmanifest
+│   ├── esbenp.prettier-vscode-11.0.2-universal
+│   │   ├── .devcontainer
+│   │   ├── dist
+│   │   ├── CHANGELOG.md
+│   │   ├── .eslintignore
+│   │   ├── LICENSE.txt
+│   │   ├── package.json
+│   │   ├── package-json-schema.json
+│   │   ├── package.nls.json
+│   │   ├── package.nls.zh-cn.json
+│   │   ├── package.nls.zh-tw.json
+│   │   ├── README.md
+│   │   ├── THIRDPARTY.md
+│   │   └── .vsixmanifest
+│   ├── ms-python.black-formatter-2025.2.0-universal
+│   │   ├── build
+│   │   ├── bundled
+│   │   ├── dist
+│   │   ├── CHANGELOG.md
+│   │   ├── LICENSE.txt
+│   │   ├── NOTICE.txt
+│   │   ├── package.json
+│   │   ├── package.nls.json
+│   │   ├── README.md
+│   │   ├── runtime.txt
+│   │   ├── SECURITY.md
+│   │   ├── SUPPORT.md
+│   │   └── .vsixmanifest
+│   ├── ms-python.debugpy-2024.0.0-linux-x64
+│   │   ├── bundled
+│   │   ├── dist
+│   │   ├── debugpy_info.json
+│   │   ├── .flake8
+│   │   ├── LICENSE.txt
+│   │   ├── package.json
+│   │   ├── package.nls.json
+│   │   ├── README.md
+│   │   ├── SECURITY.md
+│   │   ├── SUPPORT.md
+│   │   └── .vsixmanifest
+│   ├── ms-python.python-2025.20.1-universal
+│   │   ├── dist
+│   │   ├── .eslintplugin
+│   │   ├── images
+│   │   ├── languages
+│   │   ├── out
+│   │   ├── python_files
+│   │   ├── resources
+│   │   ├── schemas
+│   │   ├── syntaxes
+│   │   ├── cgmanifest.json
+│   │   ├── CHANGELOG.md
+│   │   ├── eslint.config.mjs
+│   │   ├── LICENSE.txt
+│   │   ├── package.json
+│   │   ├── package.nls.json
+│   │   ├── README.md
+│   │   ├── requirements.txt
+│   │   ├── SECURITY.md
+│   │   ├── SUPPORT.md
+│   │   ├── ThirdPartyNotices-Repository.txt
+│   │   └── .vsixmanifest
+│   ├── ms-python.vscode-python-envs-1.14.0-universal
+│   │   ├── build
+│   │   ├── dist
+│   │   ├── docs
+│   │   ├── files
+│   │   ├── .github
+│   │   ├── images
+│   │   ├── eslint.config.mjs
+│   │   ├── LICENSE.txt
+│   │   ├── .nvmrc
+│   │   ├── package.json
+│   │   ├── package.nls.json
+│   │   ├── readme.md
+│   │   ├── SECURITY.md
+│   │   ├── SUPPORT.md
+│   │   └── .vsixmanifest
+│   ├── ms-toolsai.jupyter-2025.9.1-universal
+│   │   ├── dist
+│   │   ├── pythonFiles
+│   │   ├── resources
+│   │   ├── snippets
+│   │   ├── changelog.md
+│   │   ├── CodeQL.yml
+│   │   ├── CredScanSuppressions.json
+│   │   ├── LICENSE.txt
+│   │   ├── package.json
+│   │   ├── package.nls.json
+│   │   ├── readme.md
+│   │   ├── SECURITY.md
+│   │   ├── SUPPORT.md
+│   │   └── .vsixmanifest
+│   ├── ms-toolsai.jupyter-keymap-1.1.2-universal
+│   │   ├── build
+│   │   ├── LICENSE.txt
+│   │   ├── package.json
+│   │   ├── README.md
+│   │   ├── SECURITY.md
+│   │   ├── SUPPORT.md
+│   │   └── .vsixmanifest
+│   ├── ms-toolsai.jupyter-renderers-1.3.0-universal
+│   │   ├── images
+│   │   ├── out
+│   │   ├── changelog.md
+│   │   ├── LICENSE.txt
+│   │   ├── package.json
+│   │   ├── readme.md
+│   │   ├── SECURITY.md
+│   │   ├── ThirdPartyNotices-Repository.txt
+│   │   └── .vsixmanifest
+│   ├── ms-toolsai.vscode-jupyter-cell-tags-0.1.9-universal
+│   │   ├── images
+│   │   ├── out
+│   │   ├── src
+│   │   ├── .vscode
+│   │   ├── azure-pipeline.stable.yml
+│   │   ├── CHANGELOG.md
+│   │   ├── .gitignore
+│   │   ├── LICENSE.txt
+│   │   ├── package.json
+│   │   ├── README.md
+│   │   ├── SECURITY.md
+│   │   ├── SUPPORT.md
+│   │   ├── tsconfig.json
+│   │   └── .vsixmanifest
+│   ├── ms-toolsai.vscode-jupyter-slideshow-0.1.6-universal
+│   │   ├── images
+│   │   ├── out
+│   │   ├── src
+│   │   ├── .vscode
+│   │   ├── azure-pipeline.stable.yml
+│   │   ├── .gitignore
+│   │   ├── LICENSE.txt
+│   │   ├── package.json
+│   │   ├── README.md
+│   │   ├── SECURITY.md
+│   │   ├── SUPPORT.md
+│   │   ├── tsconfig.json
+│   │   ├── vscode.proposed.notebookWorkspaceEdit.d.ts
+│   │   └── .vsixmanifest
+│   ├── oderwat.indent-rainbow-8.3.1-universal
+│   │   ├── assets
+│   │   ├── build
+│   │   ├── dist
+│   │   ├── .github
+│   │   ├── out
+│   │   ├── LICENSE.txt
+│   │   ├── package.json
+│   │   ├── publish
+│   │   ├── README.md
+│   │   ├── test-web.sh
+│   │   └── .vsixmanifest
+│   ├── pkief.material-icon-theme-5.30.0-universal
+│   │   ├── dist
+│   │   ├── icons
+│   │   ├── changelog.md
+│   │   ├── LICENSE.txt
+│   │   ├── package.json
+│   │   ├── package.nls.cs.json
+│   │   ├── package.nls.de.json
+│   │   ├── package.nls.es.json
+│   │   ├── package.nls.fr.json
+│   │   ├── package.nls.id.json
+│   │   ├── package.nls.ja.json
+│   │   ├── package.nls.json
+│   │   ├── package.nls.ko.json
+│   │   ├── package.nls.nl.json
+│   │   ├── package.nls.pl.json
+│   │   ├── package.nls.pt-BR.json
+│   │   ├── package.nls.pt-PT.json
+│   │   ├── package.nls.ru.json
+│   │   ├── package.nls.zh-CN.json
+│   │   ├── package.nls.zh-TW.json
+│   │   ├── readme.md
+│   │   └── .vsixmanifest
+│   ├── usernamehw.errorlens-3.26.0-universal
+│   │   ├── dist
+│   │   ├── img
+│   │   ├── changelog.md
+│   │   ├── LICENSE.txt
+│   │   ├── package.json
+│   │   ├── readme.md
+│   │   └── .vsixmanifest
+│   └── extensions.json
+├── .immortal_env
+│   ├── oh-my-zsh
+│   │   ├── cache
+│   │   ├── custom
+│   │   ├── .devcontainer
+│   │   ├── .github
+│   │   ├── lib
+│   │   ├── log
+│   │   ├── plugins
+│   │   ├── templates
+│   │   ├── themes
+│   │   ├── tools
+│   │   ├── CODE_OF_CONDUCT.md
+│   │   ├── CONTRIBUTING.md
+│   │   ├── .editorconfig
+│   │   ├── .gitignore
+│   │   ├── LICENSE.txt
+│   │   ├── oh-my-zsh.sh
+│   │   ├── .prettierrc
+│   │   ├── README.md
+│   │   └── SECURITY.md
+│   ├── zsh
+│   ├── .p10k.zsh
+│   └── .zshrc
+├── .local
+│   ├── bin
+│   │   ├── plotly_get_chrome
+│   │   ├── streamlit
+│   │   ├── streamlit.cmd
+│   │   └── watchmedo
+│   ├── etc
+│   │   └── jupyter
+│   ├── lib
+│   │   └── python3.12
+│   └── share
+│       ├── code-server
+│       └── jupyter
+├── .oh-my-zsh
+│   ├── cache
+│   │   ├── completions
+│   │   ├── .gitkeep
+│   │   ├── grep-alias
+│   │   └── .zsh-update
+│   ├── custom
+│   │   ├── plugins
+│   │   ├── themes
+│   │   └── example.zsh
+│   ├── .devcontainer
+│   │   └── devcontainer.json
+│   ├── .github
+│   │   ├── ISSUE_TEMPLATE
+│   │   ├── workflows
+│   │   ├── CODEOWNERS
+│   │   ├── dependabot.yml
+│   │   ├── dependencies.yml
+│   │   ├── FUNDING.yml
+│   │   ├── INCIDENT_RESPONSE_PLAN.md
+│   │   └── PULL_REQUEST_TEMPLATE.md
+│   ├── lib
+│   │   ├── tests
+│   │   ├── async_prompt.zsh
+│   │   ├── bzr.zsh
+│   │   ├── clipboard.zsh
+│   │   ├── cli.zsh
+│   │   ├── compfix.zsh
+│   │   ├── completion.zsh
+│   │   ├── correction.zsh
+│   │   ├── diagnostics.zsh
+│   │   ├── directories.zsh
+│   │   ├── functions.zsh
+│   │   ├── git.zsh
+│   │   ├── grep.zsh
+│   │   ├── history.zsh
+│   │   ├── key-bindings.zsh
+│   │   ├── misc.zsh
+│   │   ├── nvm.zsh
+│   │   ├── prompt_info_functions.zsh
+│   │   ├── spectrum.zsh
+│   │   ├── termsupport.zsh
+│   │   ├── theme-and-appearance.zsh
+│   │   └── vcs_info.zsh
+│   ├── log
+│   │   └── .gitkeep
+│   ├── plugins
+│   │   ├── 1password
+│   │   ├── aliases
+│   │   ├── alias-finder
+│   │   ├── ansible
+│   │   ├── ant
+│   │   ├── apache2-macports
+│   │   ├── arcanist
+│   │   ├── archlinux
+│   │   ├── arduino-cli
+│   │   ├── argocd
+│   │   ├── asdf
+│   │   ├── autoenv
+│   │   ├── autojump
+│   │   ├── autopep8
+│   │   ├── aws
+│   │   ├── azure
+│   │   ├── battery
+│   │   ├── bazel
+│   │   ├── bbedit
+│   │   ├── bedtools
+│   │   ├── bgnotify
+│   │   ├── bower
+│   │   ├── branch
+│   │   ├── brew
+│   │   ├── bridgetown
+│   │   ├── buf
+│   │   ├── bun
+│   │   ├── bundler
+│   │   ├── cabal
+│   │   ├── cake
+│   │   ├── cakephp3
+│   │   ├── capistrano
+│   │   ├── cask
+│   │   ├── catimg
+│   │   ├── celery
+│   │   ├── charm
+│   │   ├── chezmoi
+│   │   ├── chruby
+│   │   ├── chucknorris
+│   │   ├── cloudfoundry
+│   │   ├── codeclimate
+│   │   ├── coffee
+│   │   ├── colemak
+│   │   ├── colored-man-pages
+│   │   ├── colorize
+│   │   ├── command-not-found
+│   │   ├── common-aliases
+│   │   ├── compleat
+│   │   ├── composer
+│   │   ├── conda
+│   │   ├── conda-env
+│   │   ├── copybuffer
+│   │   ├── copyfile
+│   │   ├── copypath
+│   │   ├── cp
+│   │   ├── cpanm
+│   │   ├── dash
+│   │   ├── dbt
+│   │   ├── debian
+│   │   ├── deno
+│   │   ├── dircycle
+│   │   ├── direnv
+│   │   ├── dirhistory
+│   │   ├── dirpersist
+│   │   ├── dnf
+│   │   ├── dnote
+│   │   ├── docker
+│   │   ├── docker-compose
+│   │   ├── doctl
+│   │   ├── dotenv
+│   │   ├── dotnet
+│   │   ├── droplr
+│   │   ├── drush
+│   │   ├── eecms
+│   │   ├── emacs
+│   │   ├── ember-cli
+│   │   ├── emoji
+│   │   ├── emoji-clock
+│   │   ├── emotty
+│   │   ├── encode64
+│   │   ├── extract
+│   │   ├── eza
+│   │   ├── fabric
+│   │   ├── fancy-ctrl-z
+│   │   ├── fasd
+│   │   ├── fastfile
+│   │   ├── fbterm
+│   │   ├── firewalld
+│   │   ├── flutter
+│   │   ├── fluxcd
+│   │   ├── fnm
+│   │   ├── foot
+│   │   ├── forklift
+│   │   ├── fossil
+│   │   ├── frontend-search
+│   │   ├── fzf
+│   │   ├── gas
+│   │   ├── gatsby
+│   │   ├── gcloud
+│   │   ├── geeknote
+│   │   ├── gem
+│   │   ├── genpass
+│   │   ├── gh
+│   │   ├── git
+│   │   ├── git-auto-fetch
+│   │   ├── git-commit
+│   │   ├── git-escape-magic
+│   │   ├── git-extras
+│   │   ├── gitfast
+│   │   ├── git-flow
+│   │   ├── git-flow-avh
+│   │   ├── github
+│   │   ├── git-hubflow
+│   │   ├── gitignore
+│   │   ├── git-lfs
+│   │   ├── git-prompt
+│   │   ├── glassfish
+│   │   ├── globalias
+│   │   ├── gnu-utils
+│   │   ├── golang
+│   │   ├── gpg-agent
+│   │   ├── gradle
+│   │   ├── grails
+│   │   ├── grc
+│   │   ├── grunt
+│   │   ├── gulp
+│   │   ├── hanami
+│   │   ├── hasura
+│   │   ├── helm
+│   │   ├── heroku
+│   │   ├── heroku-alias
+│   │   ├── history
+│   │   ├── history-substring-search
+│   │   ├── hitchhiker
+│   │   ├── hitokoto
+│   │   ├── homestead
+│   │   ├── httpie
+│   │   ├── invoke
+│   │   ├── ionic
+│   │   ├── ipfs
+│   │   ├── isodate
+│   │   ├── istioctl
+│   │   ├── iterm2
+│   │   ├── jake-node
+│   │   ├── jenv
+│   │   ├── jfrog
+│   │   ├── jhbuild
+│   │   ├── jira
+│   │   ├── jj
+│   │   ├── jruby
+│   │   ├── jsontools
+│   │   ├── juju
+│   │   ├── jump
+│   │   ├── k9s
+│   │   ├── kamal
+│   │   ├── kate
+│   │   ├── keychain
+│   │   ├── kind
+│   │   ├── kitchen
+│   │   ├── kitty
+│   │   ├── kn
+│   │   ├── knife
+│   │   ├── knife_ssh
+│   │   ├── kompose
+│   │   ├── kops
+│   │   ├── kubectl
+│   │   ├── kubectx
+│   │   ├── kube-ps1
+│   │   ├── lando
+│   │   ├── laravel
+│   │   ├── laravel4
+│   │   ├── laravel5
+│   │   ├── last-working-dir
+│   │   ├── lein
+│   │   ├── lighthouse
+│   │   ├── localstack
+│   │   ├── lol
+│   │   ├── lpass
+│   │   ├── lxd
+│   │   ├── macos
+│   │   ├── macports
+│   │   ├── magic-enter
+│   │   ├── man
+│   │   ├── marked2
+│   │   ├── marktext
+│   │   ├── mercurial
+│   │   ├── meteor
+│   │   ├── microk8s
+│   │   ├── minikube
+│   │   ├── mise
+│   │   ├── mix
+│   │   ├── mix-fast
+│   │   ├── mongo-atlas
+│   │   ├── mongocli
+│   │   ├── mosh
+│   │   ├── multipass
+│   │   ├── mvn
+│   │   ├── mysql-macports
+│   │   ├── n98-magerun
+│   │   ├── nanoc
+│   │   ├── nats
+│   │   ├── nestjs
+│   │   ├── ng
+│   │   ├── ngrok
+│   │   ├── nmap
+│   │   ├── node
+│   │   ├── nodenv
+│   │   ├── nomad
+│   │   ├── npm
+│   │   ├── nvm
+│   │   ├── oc
+│   │   ├── octozen
+│   │   ├── opentofu
+│   │   ├── operator-sdk
+│   │   ├── otp
+│   │   ├── pass
+│   │   ├── paver
+│   │   ├── pep8
+│   │   ├── percol
+│   │   ├── per-directory-history
+│   │   ├── perl
+│   │   ├── perms
+│   │   ├── phing
+│   │   ├── pip
+│   │   ├── pipenv
+│   │   ├── pj
+│   │   ├── please
+│   │   ├── pm2
+│   │   ├── pod
+│   │   ├── podman
+│   │   ├── poetry
+│   │   ├── poetry-env
+│   │   ├── postgres
+│   │   ├── pow
+│   │   ├── powder
+│   │   ├── powify
+│   │   ├── pre-commit
+│   │   ├── procs
+│   │   ├── profiles
+│   │   ├── pulumi
+│   │   ├── pyenv
+│   │   ├── pylint
+│   │   ├── python
+│   │   ├── qodana
+│   │   ├── qrcode
+│   │   ├── rails
+│   │   ├── rake
+│   │   ├── rake-fast
+│   │   ├── rand-quote
+│   │   ├── rbenv
+│   │   ├── rbw
+│   │   ├── rclone
+│   │   ├── react-native
+│   │   ├── rebar
+│   │   ├── redis-cli
+│   │   ├── repo
+│   │   ├── ros
+│   │   ├── rsync
+│   │   ├── ruby
+│   │   ├── rust
+│   │   ├── rvm
+│   │   ├── safe-paste
+│   │   ├── salt
+│   │   ├── samtools
+│   │   ├── sbt
+│   │   ├── scala
+│   │   ├── scd
+│   │   ├── screen
+│   │   ├── scw
+│   │   ├── sdk
+│   │   ├── sfdx
+│   │   ├── sfffe
+│   │   ├── shell-proxy
+│   │   ├── shrink-path
+│   │   ├── sigstore
+│   │   ├── singlechar
+│   │   ├── skaffold
+│   │   ├── snap
+│   │   ├── spackenv
+│   │   ├── spring
+│   │   ├── sprunge
+│   │   ├── ssh
+│   │   ├── ssh-agent
+│   │   ├── stack
+│   │   ├── starship
+│   │   ├── stripe
+│   │   ├── sublime
+│   │   ├── sublime-merge
+│   │   ├── sudo
+│   │   ├── supervisor
+│   │   ├── suse
+│   │   ├── svcat
+│   │   ├── svn
+│   │   ├── svn-fast-info
+│   │   ├── swiftpm
+│   │   ├── symfony
+│   │   ├── symfony2
+│   │   ├── symfony6
+│   │   ├── systemadmin
+│   │   ├── systemd
+│   │   ├── tailscale
+│   │   ├── task
+│   │   ├── taskwarrior
+│   │   ├── terminitor
+│   │   ├── term_tab
+│   │   ├── terraform
+│   │   ├── textastic
+│   │   ├── textmate
+│   │   ├── thefuck
+│   │   ├── themes
+│   │   ├── thor
+│   │   ├── tig
+│   │   ├── timer
+│   │   ├── timoni
+│   │   ├── tldr
+│   │   ├── tmux
+│   │   ├── tmux-cssh
+│   │   ├── tmuxinator
+│   │   ├── toolbox
+│   │   ├── torrent
+│   │   ├── transfer
+│   │   ├── tt
+│   │   ├── tugboat
+│   │   ├── ubuntu
+│   │   ├── ufw
+│   │   ├── universalarchive
+│   │   ├── urltools
+│   │   ├── uv
+│   │   ├── vagrant
+│   │   ├── vagrant-prompt
+│   │   ├── vault
+│   │   ├── vim-interaction
+│   │   ├── vi-mode
+│   │   ├── virtualenv
+│   │   ├── virtualenvwrapper
+│   │   ├── volta
+│   │   ├── vscode
+│   │   ├── vundle
+│   │   ├── wakeonlan
+│   │   ├── watson
+│   │   ├── wd
+│   │   ├── web-search
+│   │   ├── wp-cli
+│   │   ├── xcode
+│   │   ├── yarn
+│   │   ├── yii
+│   │   ├── yii2
+│   │   ├── yum
+│   │   ├── z
+│   │   ├── zbell
+│   │   ├── zeus
+│   │   ├── zoxide
+│   │   ├── zsh-interactive-cd
+│   │   └── zsh-navigation-tools
+│   ├── templates
+│   │   ├── minimal.zshrc
+│   │   └── zshrc.zsh-template
+│   ├── themes
+│   │   ├── 3den.zsh-theme
+│   │   ├── adben.zsh-theme
+│   │   ├── af-magic.zsh-theme
+│   │   ├── afowler.zsh-theme
+│   │   ├── agnoster.zsh-theme
+│   │   ├── alanpeabody.zsh-theme
+│   │   ├── amuse.zsh-theme
+│   │   ├── apple.zsh-theme
+│   │   ├── arrow.zsh-theme
+│   │   ├── aussiegeek.zsh-theme
+│   │   ├── avit.zsh-theme
+│   │   ├── awesomepanda.zsh-theme
+│   │   ├── bira.zsh-theme
+│   │   ├── blinks.zsh-theme
+│   │   ├── bureau.zsh-theme
+│   │   ├── candy-kingdom.zsh-theme
+│   │   ├── candy.zsh-theme
+│   │   ├── clean.zsh-theme
+│   │   ├── cloud.zsh-theme
+│   │   ├── crcandy.zsh-theme
+│   │   ├── crunch.zsh-theme
+│   │   ├── cypher.zsh-theme
+│   │   ├── dallas.zsh-theme
+│   │   ├── darkblood.zsh-theme
+│   │   ├── daveverwer.zsh-theme
+│   │   ├── dieter.zsh-theme
+│   │   ├── dogenpunk.zsh-theme
+│   │   ├── dpoggi.zsh-theme
+│   │   ├── dstufft.zsh-theme
+│   │   ├── dst.zsh-theme
+│   │   ├── duellj.zsh-theme
+│   │   ├── eastwood.zsh-theme
+│   │   ├── edvardm.zsh-theme
+│   │   ├── emotty.zsh-theme
+│   │   ├── essembeh.zsh-theme
+│   │   ├── evan.zsh-theme
+│   │   ├── fino-time.zsh-theme
+│   │   ├── fino.zsh-theme
+│   │   ├── fishy.zsh-theme
+│   │   ├── flazz.zsh-theme
+│   │   ├── fletcherm.zsh-theme
+│   │   ├── fox.zsh-theme
+│   │   ├── frisk.zsh-theme
+│   │   ├── frontcube.zsh-theme
+│   │   ├── funky.zsh-theme
+│   │   ├── fwalch.zsh-theme
+│   │   ├── gallifrey.zsh-theme
+│   │   ├── gallois.zsh-theme
+│   │   ├── garyblessington.zsh-theme
+│   │   ├── gentoo.zsh-theme
+│   │   ├── geoffgarside.zsh-theme
+│   │   ├── gianu.zsh-theme
+│   │   ├── gnzh.zsh-theme
+│   │   ├── gozilla.zsh-theme
+│   │   ├── half-life.zsh-theme
+│   │   ├── humza.zsh-theme
+│   │   ├── imajes.zsh-theme
+│   │   ├── intheloop.zsh-theme
+│   │   ├── itchy.zsh-theme
+│   │   ├── jaischeema.zsh-theme
+│   │   ├── jbergantine.zsh-theme
+│   │   ├── jispwoso.zsh-theme
+│   │   ├── jnrowe.zsh-theme
+│   │   ├── jonathan.zsh-theme
+│   │   ├── josh.zsh-theme
+│   │   ├── jreese.zsh-theme
+│   │   ├── jtriley.zsh-theme
+│   │   ├── juanghurtado.zsh-theme
+│   │   ├── junkfood.zsh-theme
+│   │   ├── kafeitu.zsh-theme
+│   │   ├── kardan.zsh-theme
+│   │   ├── kennethreitz.zsh-theme
+│   │   ├── kiwi.zsh-theme
+│   │   ├── kolo.zsh-theme
+│   │   ├── kphoen.zsh-theme
+│   │   ├── lambda.zsh-theme
+│   │   ├── linuxonly.zsh-theme
+│   │   ├── lukerandall.zsh-theme
+│   │   ├── macovsky-ruby.zsh-theme -> macovsky.zsh-theme
+│   │   ├── macovsky.zsh-theme
+│   │   ├── maran.zsh-theme
+│   │   ├── mgutz.zsh-theme
+│   │   ├── mh.zsh-theme
+│   │   ├── michelebologna.zsh-theme
+│   │   ├── mikeh.zsh-theme
+│   │   ├── miloshadzic.zsh-theme
+│   │   ├── minimal.zsh-theme
+│   │   ├── mira.zsh-theme
+│   │   ├── mlh.zsh-theme
+│   │   ├── mortalscumbag.zsh-theme
+│   │   ├── mrtazz.zsh-theme
+│   │   ├── murilasso.zsh-theme
+│   │   ├── muse.zsh-theme
+│   │   ├── nanotech.zsh-theme
+│   │   ├── nebirhos.zsh-theme
+│   │   ├── nicoulaj.zsh-theme
+│   │   ├── norm.zsh-theme
+│   │   ├── obraun.zsh-theme
+│   │   ├── oldgallois.zsh-theme
+│   │   ├── peepcode.zsh-theme
+│   │   ├── philips.zsh-theme
+│   │   ├── pmcgee.zsh-theme
+│   │   ├── pygmalion-virtualenv.zsh-theme
+│   │   ├── pygmalion.zsh-theme
+│   │   ├── random.zsh-theme
+│   │   ├── re5et.zsh-theme
+│   │   ├── refined.zsh-theme
+│   │   ├── rgm.zsh-theme
+│   │   ├── risto.zsh-theme
+│   │   ├── rixius.zsh-theme
+│   │   ├── rkj-repos.zsh-theme
+│   │   ├── rkj.zsh-theme
+│   │   ├── robbyrussell.zsh-theme
+│   │   ├── sammy.zsh-theme
+│   │   ├── simonoff.zsh-theme
+│   │   ├── simple.zsh-theme
+│   │   ├── skaro.zsh-theme
+│   │   ├── smt.zsh-theme
+│   │   ├── Soliah.zsh-theme
+│   │   ├── sonicradish.zsh-theme
+│   │   ├── sorin.zsh-theme
+│   │   ├── sporty_256.zsh-theme
+│   │   ├── steeef.zsh-theme
+│   │   ├── strug.zsh-theme
+│   │   ├── sunaku.zsh-theme
+│   │   ├── sunrise.zsh-theme
+│   │   ├── superjarin.zsh-theme
+│   │   ├── suvash.zsh-theme
+│   │   ├── takashiyoshida.zsh-theme
+│   │   ├── terminalparty.zsh-theme
+│   │   ├── theunraveler.zsh-theme
+│   │   ├── tjkirch_mod.zsh-theme
+│   │   ├── tjkirch.zsh-theme
+│   │   ├── tonotdo.zsh-theme
+│   │   ├── trapd00r.zsh-theme
+│   │   ├── wedisagree.zsh-theme
+│   │   ├── wezm+.zsh-theme
+│   │   ├── wezm.zsh-theme
+│   │   ├── wuffers.zsh-theme
+│   │   ├── xiong-chiamiov-plus.zsh-theme
+│   │   ├── xiong-chiamiov.zsh-theme
+│   │   ├── ys.zsh-theme
+│   │   └── zhann.zsh-theme
+│   ├── tools
+│   │   ├── changelog.sh
+│   │   ├── check_for_upgrade.sh
+│   │   ├── install.sh
+│   │   ├── require_tool.sh
+│   │   ├── theme_chooser.sh
+│   │   ├── uninstall.sh
+│   │   └── upgrade.sh
+│   ├── CODE_OF_CONDUCT.md
+│   ├── CONTRIBUTING.md
+│   ├── .editorconfig
+│   ├── .gitignore
+│   ├── LICENSE.txt
+│   ├── oh-my-zsh.sh
+│   ├── .prettierrc
+│   ├── README.md
+│   └── SECURITY.md
+├── python_packages
+│   ├── bin
+│   │   ├── black
+│   │   ├── blackd
+│   │   └── normalizer
+│   ├── black
+│   │   ├── resources
+│   │   ├── brackets.cpython-312-x86_64-linux-gnu.so
+│   │   ├── brackets.py
+│   │   ├── cache.cpython-312-x86_64-linux-gnu.so
+│   │   ├── cache.py
+│   │   ├── comments.cpython-312-x86_64-linux-gnu.so
+│   │   ├── comments.py
+│   │   ├── concurrency.py
+│   │   ├── const.cpython-312-x86_64-linux-gnu.so
+│   │   ├── const.py
+│   │   ├── debug.py
+│   │   ├── files.py
+│   │   ├── handle_ipynb_magics.cpython-312-x86_64-linux-gnu.so
+│   │   ├── handle_ipynb_magics.py
+│   │   ├── __init__.cpython-312-x86_64-linux-gnu.so
+│   │   ├── __init__.py
+│   │   ├── linegen.cpython-312-x86_64-linux-gnu.so
+│   │   ├── linegen.py
+│   │   ├── lines.cpython-312-x86_64-linux-gnu.so
+│   │   ├── lines.py
+│   │   ├── __main__.py
+│   │   ├── mode.cpython-312-x86_64-linux-gnu.so
+│   │   ├── mode.py
+│   │   ├── nodes.cpython-312-x86_64-linux-gnu.so
+│   │   ├── nodes.py
+│   │   ├── numerics.cpython-312-x86_64-linux-gnu.so
+│   │   ├── numerics.py
+│   │   ├── output.py
+│   │   ├── parsing.cpython-312-x86_64-linux-gnu.so
+│   │   ├── parsing.py
+│   │   ├── py.typed
+│   │   ├── ranges.cpython-312-x86_64-linux-gnu.so
+│   │   ├── ranges.py
+│   │   ├── report.py
+│   │   ├── rusty.cpython-312-x86_64-linux-gnu.so
+│   │   ├── rusty.py
+│   │   ├── schema.cpython-312-x86_64-linux-gnu.so
+│   │   ├── schema.py
+│   │   ├── strings.cpython-312-x86_64-linux-gnu.so
+│   │   ├── strings.py
+│   │   ├── trans.cpython-312-x86_64-linux-gnu.so
+│   │   ├── trans.py
+│   │   ├── _width_table.cpython-312-x86_64-linux-gnu.so
+│   │   └── _width_table.py
+│   ├── black-25.12.0.dist-info
+│   │   ├── licenses
+│   │   ├── entry_points.txt
+│   │   ├── INSTALLER
+│   │   ├── METADATA
+│   │   ├── RECORD
+│   │   ├── REQUESTED
+│   │   └── WHEEL
+│   ├── blackd
+│   │   ├── client.py
+│   │   ├── __init__.py
+│   │   ├── __main__.py
+│   │   └── middlewares.py
+│   ├── blib2to3
+│   │   ├── pgen2
+│   │   ├── Grammar.txt
+│   │   ├── __init__.py
+│   │   ├── LICENSE
+│   │   ├── PatternGrammar.txt
+│   │   ├── pygram.cpython-312-x86_64-linux-gnu.so
+│   │   ├── pygram.py
+│   │   ├── pytree.cpython-312-x86_64-linux-gnu.so
+│   │   ├── pytree.py
+│   │   └── README
+│   ├── certifi
+│   │   ├── cacert.pem
+│   │   ├── core.py
+│   │   ├── __init__.py
+│   │   ├── __main__.py
+│   │   └── py.typed
+│   ├── certifi-2025.11.12.dist-info
+│   │   ├── licenses
+│   │   ├── INSTALLER
+│   │   ├── METADATA
+│   │   ├── RECORD
+│   │   ├── top_level.txt
+│   │   └── WHEEL
+│   ├── charset_normalizer
+│   │   ├── cli
+│   │   ├── api.py
+│   │   ├── cd.py
+│   │   ├── constant.py
+│   │   ├── __init__.py
+│   │   ├── legacy.py
+│   │   ├── __main__.py
+│   │   ├── md.cpython-312-x86_64-linux-gnu.so
+│   │   ├── md__mypyc.cpython-312-x86_64-linux-gnu.so
+│   │   ├── md.py
+│   │   ├── models.py
+│   │   ├── py.typed
+│   │   ├── utils.py
+│   │   └── version.py
+│   ├── charset_normalizer-3.4.4.dist-info
+│   │   ├── licenses
+│   │   ├── entry_points.txt
+│   │   ├── INSTALLER
+│   │   ├── METADATA
+│   │   ├── RECORD
+│   │   ├── top_level.txt
+│   │   └── WHEEL
+│   ├── click
+│   │   ├── _compat.py
+│   │   ├── core.py
+│   │   ├── decorators.py
+│   │   ├── exceptions.py
+│   │   ├── formatting.py
+│   │   ├── globals.py
+│   │   ├── __init__.py
+│   │   ├── parser.py
+│   │   ├── py.typed
+│   │   ├── shell_completion.py
+│   │   ├── _termui_impl.py
+│   │   ├── termui.py
+│   │   ├── testing.py
+│   │   ├── _textwrap.py
+│   │   ├── types.py
+│   │   ├── _utils.py
+│   │   ├── utils.py
+│   │   └── _winconsole.py
+│   ├── click-8.3.1.dist-info
+│   │   ├── licenses
+│   │   ├── INSTALLER
+│   │   ├── METADATA
+│   │   ├── RECORD
+│   │   └── WHEEL
+│   ├── idna
+│   │   ├── codec.py
+│   │   ├── compat.py
+│   │   ├── core.py
+│   │   ├── idnadata.py
+│   │   ├── __init__.py
+│   │   ├── intranges.py
+│   │   ├── package_data.py
+│   │   ├── py.typed
+│   │   └── uts46data.py
+│   ├── idna-3.11.dist-info
+│   │   ├── licenses
+│   │   ├── INSTALLER
+│   │   ├── METADATA
+│   │   ├── RECORD
+│   │   └── WHEEL
+│   ├── markdown_it
+│   │   ├── cli
+│   │   ├── common
+│   │   ├── helpers
+│   │   ├── presets
+│   │   ├── rules_block
+│   │   ├── rules_core
+│   │   ├── rules_inline
+│   │   ├── _compat.py
+│   │   ├── __init__.py
+│   │   ├── main.py
+│   │   ├── parser_block.py
+│   │   ├── parser_core.py
+│   │   ├── parser_inline.py
+│   │   ├── port.yaml
+│   │   ├── _punycode.py
+│   │   ├── py.typed
+│   │   ├── renderer.py
+│   │   ├── ruler.py
+│   │   ├── token.py
+│   │   ├── tree.py
+│   │   └── utils.py
+│   ├── markdown_it_py-4.0.0.dist-info
+│   │   ├── licenses
+│   │   ├── entry_points.txt
+│   │   ├── INSTALLER
+│   │   ├── METADATA
+│   │   ├── RECORD
+│   │   └── WHEEL
+│   ├── mdurl
+│   │   ├── _decode.py
+│   │   ├── _encode.py
+│   │   ├── _format.py
+│   │   ├── __init__.py
+│   │   ├── _parse.py
+│   │   ├── py.typed
+│   │   └── _url.py
+│   ├── mdurl-0.1.2.dist-info
+│   │   ├── INSTALLER
+│   │   ├── LICENSE
+│   │   ├── METADATA
+│   │   ├── RECORD
+│   │   └── WHEEL
+│   ├── mypy_extensions-1.1.0.dist-info
+│   │   ├── licenses
+│   │   ├── INSTALLER
+│   │   ├── METADATA
+│   │   ├── RECORD
+│   │   └── WHEEL
+│   ├── packaging
+│   │   ├── licenses
+│   │   ├── _elffile.py
+│   │   ├── __init__.py
+│   │   ├── _manylinux.py
+│   │   ├── markers.py
+│   │   ├── metadata.py
+│   │   ├── _musllinux.py
+│   │   ├── _parser.py
+│   │   ├── py.typed
+│   │   ├── requirements.py
+│   │   ├── specifiers.py
+│   │   ├── _structures.py
+│   │   ├── tags.py
+│   │   ├── _tokenizer.py
+│   │   ├── utils.py
+│   │   └── version.py
+│   ├── packaging-25.0.dist-info
+│   │   ├── licenses
+│   │   ├── INSTALLER
+│   │   ├── METADATA
+│   │   ├── RECORD
+│   │   └── WHEEL
+│   ├── pathspec
+│   │   ├── patterns
+│   │   ├── gitignore.py
+│   │   ├── __init__.py
+│   │   ├── _meta.py
+│   │   ├── pathspec.py
+│   │   ├── pattern.py
+│   │   ├── py.typed
+│   │   └── util.py
+│   ├── pathspec-0.12.1.dist-info
+│   │   ├── INSTALLER
+│   │   ├── LICENSE
+│   │   ├── METADATA
+│   │   ├── RECORD
+│   │   └── WHEEL
+│   ├── platformdirs
+│   │   ├── android.py
+│   │   ├── api.py
+│   │   ├── __init__.py
+│   │   ├── macos.py
+│   │   ├── __main__.py
+│   │   ├── py.typed
+│   │   ├── unix.py
+│   │   ├── version.py
+│   │   └── windows.py
+│   ├── platformdirs-4.5.1.dist-info
+│   │   ├── licenses
+│   │   ├── INSTALLER
+│   │   ├── METADATA
+│   │   ├── RECORD
+│   │   └── WHEEL
+│   ├── pygments
+│   │   ├── filters
+│   │   ├── formatters
+│   │   ├── lexers
+│   │   ├── styles
+│   │   ├── cmdline.py
+│   │   ├── console.py
+│   │   ├── filter.py
+│   │   ├── formatter.py
+│   │   ├── __init__.py
+│   │   ├── lexer.py
+│   │   ├── __main__.py
+│   │   ├── modeline.py
+│   │   ├── plugin.py
+│   │   ├── regexopt.py
+│   │   ├── scanner.py
+│   │   ├── sphinxext.py
+│   │   ├── style.py
+│   │   ├── token.py
+│   │   ├── unistring.py
+│   │   └── util.py
+│   ├── pygments-2.19.2.dist-info
+│   │   ├── licenses
+│   │   ├── entry_points.txt
+│   │   ├── INSTALLER
+│   │   ├── METADATA
+│   │   ├── RECORD
+│   │   └── WHEEL
+│   ├── pytokens
+│   │   ├── cli.py
+│   │   ├── __init__.py
+│   │   ├── __main__.py
+│   │   └── py.typed
+│   ├── pytokens-0.3.0.dist-info
+│   │   ├── licenses
+│   │   ├── INSTALLER
+│   │   ├── METADATA
+│   │   ├── RECORD
+│   │   ├── top_level.txt
+│   │   └── WHEEL
+│   ├── requests
+│   │   ├── adapters.py
+│   │   ├── api.py
+│   │   ├── auth.py
+│   │   ├── certs.py
+│   │   ├── compat.py
+│   │   ├── cookies.py
+│   │   ├── exceptions.py
+│   │   ├── help.py
+│   │   ├── hooks.py
+│   │   ├── __init__.py
+│   │   ├── _internal_utils.py
+│   │   ├── models.py
+│   │   ├── packages.py
+│   │   ├── sessions.py
+│   │   ├── status_codes.py
+│   │   ├── structures.py
+│   │   ├── utils.py
+│   │   └── __version__.py
+│   ├── requests-2.32.5.dist-info
+│   │   ├── licenses
+│   │   ├── INSTALLER
+│   │   ├── METADATA
+│   │   ├── RECORD
+│   │   ├── REQUESTED
+│   │   ├── top_level.txt
+│   │   └── WHEEL
+│   ├── rich
+│   │   ├── abc.py
+│   │   ├── align.py
+│   │   ├── ansi.py
+│   │   ├── bar.py
+│   │   ├── box.py
+│   │   ├── cells.py
+│   │   ├── _cell_widths.py
+│   │   ├── color.py
+│   │   ├── color_triplet.py
+│   │   ├── columns.py
+│   │   ├── console.py
+│   │   ├── constrain.py
+│   │   ├── containers.py
+│   │   ├── control.py
+│   │   ├── default_styles.py
+│   │   ├── diagnose.py
+│   │   ├── _emoji_codes.py
+│   │   ├── emoji.py
+│   │   ├── _emoji_replace.py
+│   │   ├── errors.py
+│   │   ├── _export_format.py
+│   │   ├── _extension.py
+│   │   ├── _fileno.py
+│   │   ├── file_proxy.py
+│   │   ├── filesize.py
+│   │   ├── highlighter.py
+│   │   ├── __init__.py
+│   │   ├── _inspect.py
+│   │   ├── json.py
+│   │   ├── jupyter.py
+│   │   ├── layout.py
+│   │   ├── live.py
+│   │   ├── live_render.py
+│   │   ├── logging.py
+│   │   ├── _log_render.py
+│   │   ├── _loop.py
+│   │   ├── __main__.py
+│   │   ├── markdown.py
+│   │   ├── markup.py
+│   │   ├── measure.py
+│   │   ├── _null_file.py
+│   │   ├── padding.py
+│   │   ├── pager.py
+│   │   ├── palette.py
+│   │   ├── _palettes.py
+│   │   ├── panel.py
+│   │   ├── _pick.py
+│   │   ├── pretty.py
+│   │   ├── progress_bar.py
+│   │   ├── progress.py
+│   │   ├── prompt.py
+│   │   ├── protocol.py
+│   │   ├── py.typed
+│   │   ├── _ratio.py
+│   │   ├── region.py
+│   │   ├── repr.py
+│   │   ├── rule.py
+│   │   ├── scope.py
+│   │   ├── screen.py
+│   │   ├── segment.py
+│   │   ├── spinner.py
+│   │   ├── _spinners.py
+│   │   ├── _stack.py
+│   │   ├── status.py
+│   │   ├── styled.py
+│   │   ├── style.py
+│   │   ├── syntax.py
+│   │   ├── table.py
+│   │   ├── terminal_theme.py
+│   │   ├── text.py
+│   │   ├── theme.py
+│   │   ├── themes.py
+│   │   ├── _timer.py
+│   │   ├── traceback.py
+│   │   ├── tree.py
+│   │   ├── _win32_console.py
+│   │   ├── _windows.py
+│   │   ├── _windows_renderer.py
+│   │   └── _wrap.py
+│   ├── rich-14.2.0.dist-info
+│   │   ├── INSTALLER
+│   │   ├── LICENSE
+│   │   ├── METADATA
+│   │   ├── RECORD
+│   │   ├── REQUESTED
+│   │   └── WHEEL
+│   ├── urllib3
+│   │   ├── contrib
+│   │   ├── http2
+│   │   ├── util
+│   │   ├── _base_connection.py
+│   │   ├── _collections.py
+│   │   ├── connectionpool.py
+│   │   ├── connection.py
+│   │   ├── exceptions.py
+│   │   ├── fields.py
+│   │   ├── filepost.py
+│   │   ├── __init__.py
+│   │   ├── poolmanager.py
+│   │   ├── py.typed
+│   │   ├── _request_methods.py
+│   │   ├── response.py
+│   │   └── _version.py
+│   ├── urllib3-2.6.2.dist-info
+│   │   ├── licenses
+│   │   ├── INSTALLER
+│   │   ├── METADATA
+│   │   ├── RECORD
+│   │   └── WHEEL
+│   ├── 30fcd23745efe32ce681__mypyc.cpython-312-x86_64-linux-gnu.so
+│   ├── _black_version.py
+│   ├── _black_version.pyi
+│   └── mypy_extensions.py
+├── .ssh
+├── workspace
+│   ├── codeserver-boilerplate
+│   │   ├── config
+│   │   ├── data
+│   │   ├── logs
+│   │   ├── maintenance
+│   │   ├── scripts
+│   │   ├── .vscode
+│   │   ├── COMMANDS_GUIDE.md
+│   │   ├── docker-compose.sample.yml
+│   │   ├── formatting_test.py
+│   │   ├── install.sh
+│   │   ├── README.md
+│   │   ├── tree_config.txt
+│   │   └── ugly_code.py
+│   ├── docker_synology
+│   │   ├── 115cloud
+│   │   ├── 115cloud_webdav
+│   │   ├── 115_download
+│   │   ├── affine
+│   │   ├── ai-infinite-theater
+│   │   ├── alist
+│   │   ├── archivebox
+│   │   ├── arr-stack
+│   │   ├── audiobookshelf
+│   │   ├── bookstack
+│   │   ├── bot_bhrm
+│   │   ├── bot-cal-card
+│   │   ├── calibre
+│   │   ├── chromium
+│   │   ├── codeserver
+│   │   ├── codeserver_old
+│   │   ├── codeserver_old2
+│   │   ├── codeserver_old3
+│   │   ├── codeserver_old4
+│   │   ├── composecraftdb
+│   │   ├── crawlab
+│   │   ├── crawler
+│   │   ├── cwgpt
+│   │   ├── darktable
+│   │   ├── dashdot
+│   │   ├── dashy
+│   │   ├── deemix
+│   │   ├── docmost
+│   │   ├── dozzle
+│   │   ├── Dr-AI-Pro
+│   │   ├── drawio
+│   │   ├── @eaDir
+│   │   ├── excalidraw
+│   │   ├── farmos
+│   │   ├── favicon
+│   │   ├── filezilla
+│   │   ├── firefly
+│   │   ├── fontcompare
+│   │   ├── github-desktop
+│   │   ├── glances
+│   │   ├── globalinfohunter
+│   │   ├── gluetun
+│   │   ├── gpt4free
+│   │   ├── grafana
+│   │   ├── handbrake
+│   │   ├── hastebin
+│   │   ├── heimdall
+│   │   ├── homeassistant
+│   │   ├── hrconvert2
+│   │   ├── infinity_empire
+│   │   ├── invidiousdb
+│   │   ├── invoiceninja
+│   │   ├── it-tools
+│   │   ├── jdownloader2
+│   │   ├── jellyfinht
+│   │   ├── jetlog
+│   │   ├── joomla
+│   │   ├── joplin
+│   │   ├── journal-monitor
+│   │   ├── kavita
+│   │   ├── komga
+│   │   ├── live-ticktock-app
+│   │   ├── lynxdb
+│   │   ├── mayanedms
+│   │   ├── mealie
+│   │   ├── mega
+│   │   ├── mermaid
+│   │   ├── metube
+│   │   ├── morphos
+│   │   ├── myspeed
+│   │   ├── n8n
+│   │   ├── navidrome
+│   │   ├── netalertx
+│   │   ├── netdata
+│   │   ├── nextcloud
+│   │   ├── npm
+│   │   ├── obsidian
+│   │   ├── ollama
+│   │   ├── onlyoffice
+│   │   ├── paperlessngx
+│   │   ├── paperlessngxai
+│   │   ├── papermerge
+│   │   ├── photoprism
+│   │   ├── pialert
+│   │   ├── plexhw
+│   │   ├── portainer
+│   │   ├── privatebin
+│   │   ├── project_1t
+│   │   ├── qbittorrent
+│   │   ├── qbittorrent_gluetun
+│   │   ├── qrcode
+│   │   ├── rallly
+│   │   ├── rclone
+│   │   ├── #recycle
+│   │   ├── reduced
+│   │   ├── rehab-ai-lab
+│   │   ├── remotely
+│   │   ├── reubah
+│   │   ├── rustdeskhbbr
+│   │   ├── rustdeskhbbs
+│   │   ├── selenium
+│   │   ├── shlinkdb
+│   │   ├── smi2srt
+│   │   ├── snappdb
+│   │   ├── #snapshot
+│   │   ├── snapshot_delete
+│   │   ├── speedtest
+│   │   ├── stirling
+│   │   ├── syncthing
+│   │   ├── temp1
+│   │   ├── test
+│   │   ├── test1
+│   │   ├── test-bot-public
+│   │   ├── transmission
+│   │   ├── uptimekuma
+│   │   ├── valheim
+│   │   ├── vaultwarden
+│   │   ├── watchtower
+│   │   ├── webcheck
+│   │   ├── websiteshot
+│   │   ├── wordpress
+│   │   ├── yaak
+│   │   ├── yourls
+│   │   ├── yourlsdb
+│   │   ├── youtubedl
+│   │   └── archivebox.yaml
+│   ├── mermaid_test
+│   │   ├── journal_AI.md
+│   │   ├── Technical Architecture.md
+│   │   └── test.md
+│   ├── playground-lab
+│   │   ├── config
+│   │   ├── data
+│   │   ├── docs
+│   │   ├── models
+│   │   ├── notebooks
+│   │   ├── src
+│   │   ├── tests
+│   │   ├── .gitignore
+│   │   ├── README.md
+│   │   └── requirements.txt
+│   ├── Rehab-AI-Research
+│   │   ├── data
+│   │   ├── docs
+│   │   ├── models
+│   │   ├── notebooks
+│   │   ├── references
+│   │   ├── results
+│   │   ├── src
+│   │   ├── .gitignore
+│   │   ├── README.md
+│   │   └── requirements.txt
+│   └── tree
+├── .bash_history
+├── .bashrc
+├── compose.yaml
+├── .gitconfig
+├── .git-credentials
+├── .lesshst
+├── .p10k.zsh -> /config/.immortal_env/.p10k.zsh
+├── .profile
+├── .zcompdump
+├── .zcompdump-c2378e60f9d6-5.9
+├── .zcompdump-c2378e60f9d6-5.9.zwc
+├── .zcompdump-e7fc38e39122-5.9
+├── .zcompdump-e7fc38e39122-5.9.zwc
+├── .zsh_history
+├── .zshrc
+└── .zshrc.pre-oh-my-zsh
+
+746 directories, 789 files
