@@ -30,3 +30,15 @@ export PATH="/config/python_packages/bin:$PATH"
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 export SHELL=/bin/zsh
 export DOCKER_API_VERSION=1.43
+
+# 🌳 AI에게 보여줄 프로젝트 구조 추출 (사용법: map [폴더명])
+function map() {
+    # 폴더명이 없으면 현재 폴더를 대상으로 함
+    TARGET="${1:-.}"
+    
+    echo "🗺️  Project Structure for AI Context:"
+    echo "========================================"
+    # 3단계 깊이까지만 표시 (-L 3), 불필요한 파일 제외
+    tree "$TARGET" -L 3 -a -I '.git|__pycache__|.venv|node_modules|.DS_Store|*.pyc|*.png|*.jpg' --dirsfirst
+    echo "========================================"
+}
